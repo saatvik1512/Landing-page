@@ -22,14 +22,16 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
-    padding: 0.2rem;
     position: sticky;
+    align-items: center;
 }
 
 ul {
     display: flex;
     gap: 2.5rem;
     padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 ul > li {
@@ -87,9 +89,10 @@ footer {
 .main-text {
     align-self: stretch;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: center;
     max-width: 40%;
+    flex-wrap: wrap;
 }
 
 blockquote {
@@ -98,4 +101,20 @@ blockquote {
     color: red;
     font-size: 2rem;
     font-style: italic;
+}
+
+header nav ul li button {
+    padding: 0.4rem 0.7rem;
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    border: none;
+    cursor: pointer;
+    transition: background-color, color, 0.3s;
+}
+
+header nav ul li button:hover {
+    background-color: var(--color-2);
+    color: var(--color-1);
 }
