@@ -50,8 +50,10 @@ body .introduction {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/images/peter-pryharski-BZ_pzyTd-hE-unsplash.jpg);
+    background: url(/images/raimond-klavins-V1yD4Uq_Y3g-unsplash.jpg);
     flex: 1;
+    background-size: cover;
+    gap: 4rem;
 }
 
 footer {
@@ -62,4 +64,38 @@ footer {
     justify-content: center;
     position: sticky;
     font-size: 19px;
+}
+
+.introduction .main-text h1:first-of-type {
+    font-size: 5.5rem;
+    color: black;
+    margin: 0;
+}
+
+.content_image img {
+    width: 250px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.introduction .main-text h1:nth-of-type(2) {
+    font-size: 5.5rem;
+    color: var(--color-1);
+    margin: 0;
+}
+
+.main-text {
+    align-self: stretch;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    max-width: 40%;
+}
+
+blockquote {
+    margin: 0;
+    padding: 2rem 0;
+    color: red;
+    font-size: 2rem;
+    font-style: italic;
 }
