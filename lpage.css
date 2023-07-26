@@ -147,8 +147,6 @@ header nav ul li button:hover {
 .info-container .card-sections {
     display: flex;
     flex-flow: column wrap;
-    width: 60%;
-    align-self: center;
     padding: 1.2rem;
     border-radius: 3%;
     background-color: var(--color-3);
@@ -209,6 +207,10 @@ header nav ul li button:hover {
 .info-container .texting {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 1.5rem;
     justify-content: center;
+}
+
+.info-container .texting #alexander {
+    align-self: stretch;
 }
