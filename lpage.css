@@ -4,6 +4,7 @@
     --color-3: #f9faf8;
     --color-4: #1f2937;
     --color-5: #E5E7Eb;
+    --color-6: #ffa31a;
 }
 
 body {
@@ -224,27 +225,28 @@ body .area {
     justify-content: center;
     background: url(images/jack-anstey-XVoyX7l9ocY-unsplash.jpg);
     background-size: cover;
+    height: 100vh;
+    align-items: center;
 }
 
 body .area .newsletter {
     display: flex;
     flex-flow: row wrap;
-    padding: 0.2rem 1rem;
     justify-content: space-around;
-    flex: 0.5;
-    background-color: whitesmoke;
+    flex: 1;
     gap: 0.5rem;
-    border-radius: 20px;
     align-items: center;
+    max-width: 900px;
 }
 
 body .area .newsletter p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.6rem;
     color: var(--color-2);
     font-weight: 600;
     margin: 1rem 0;
     text-align: center;
+    background-color: white;
 }
 
 body .area .newsletter button {
@@ -252,9 +254,18 @@ body .area .newsletter button {
     align-self: center;
     border: none;
     background-color: var(--color-2);
-    color: var(--color-1);
+    color: var(--color-3);
     font-weight: bolder;
     margin: 0.9rem 0;
     cursor: pointer;
     border-radius: 10px;
+    font-size: 1.8rem;
+}
+
+body .area .newsletter button span {
+    background-color: var(--color-6);
+    color: var(--color-2);
+    margin-left: 0.4rem;
+    border-radius: 5px;
+    padding: 2px;
 }
