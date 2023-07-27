@@ -66,11 +66,13 @@ body .introduction {
 
 footer {
     display: flex;
-    padding: 1rem;
+    padding: 0.5rem;
     border-top: 1px solid rgb(209, 209, 209);
     align-items: center;
     justify-content: center;
     font-size: 19px;
+    font-family: monospace;
+    gap: 0.4rem;
 }
 
 .introduction .main-text h1:first-of-type {
@@ -268,4 +270,13 @@ body .area .newsletter button span {
     margin-left: 0.4rem;
     border-radius: 5px;
     padding: 2px;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-2)
 }
