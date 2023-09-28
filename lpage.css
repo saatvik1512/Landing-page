@@ -280,3 +280,28 @@ footer a {
     text-decoration: none;
     color: var(--color-2)
 }
+
+.hidden-icon {
+    display: none;
+}
+
+@media (max-width: 510px){
+    nav ul li{
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    header > * {
+        margin: 0 1rem;
+    }
+    
+    .hidden-icon {
+        display: inline;
+        color: wheat;
+        font-size: 1.9rem;
+        cursor: pointer;
+    }
+}
